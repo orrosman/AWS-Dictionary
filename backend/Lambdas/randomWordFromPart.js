@@ -23,7 +23,9 @@ const buildResponse = (statusCode, body) => {
 	return {
 		statusCode: statusCode,
 		headers: {
-			'Content-Type': 'application-json',
+			'Content-Type': 'application/json',
+			'Access-Control-Allow-Methods': 'GET',
+			'Access-Control-Allow-Origin': '*',
 		},
 		body: JSON.stringify(body),
 	};
