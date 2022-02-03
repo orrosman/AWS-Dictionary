@@ -11,12 +11,12 @@
                     <mxGeometry x="641" y="250" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="Search for a word (with / without a specific part of speech)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;labelBackgroundColor=default;" parent="1" vertex="1">
-                    <mxGeometry x="710" y="160" width="200" height="40" as="geometry"/>
+                    <mxGeometry x="740" y="150" width="170" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="19" value="&lt;span style=&quot;text-align: left; font-size: 14px;&quot;&gt;GET&lt;br style=&quot;font-size: 14px;&quot;&gt;/:word/:partOfSpeec&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
+                <mxCell id="19" value="&lt;span style=&quot;text-align: left ; font-size: 14px&quot;&gt;GET&lt;br style=&quot;font-size: 14px&quot;&gt;/:word/:partOfSpeech&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="346.5" y="250" width="137" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="26" value="&lt;span style=&quot;text-align: left; font-size: 14px;&quot;&gt;GET&lt;br style=&quot;font-size: 14px;&quot;&gt;/:word/:partOfSpeec&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
+                <mxCell id="26" value="&lt;span style=&quot;text-align: left ; font-size: 14px&quot;&gt;GET&lt;br style=&quot;font-size: 14px&quot;&gt;&lt;/span&gt;&lt;span style=&quot;text-align: left&quot;&gt;/part-of-speech/:part&lt;/span&gt;&lt;span style=&quot;text-align: left ; font-size: 14px&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="70" y="250" width="137" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="32" value="Lambda" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
@@ -51,12 +51,12 @@
                         <mxPoint x="450" y="550" as="sourcePoint"/>
                         <mxPoint x="636.75" y="642" as="targetPoint"/>
                         <Array as="points">
-                            <mxPoint x="525" y="550"/>
-                            <mxPoint x="525" y="460"/>
+                            <mxPoint x="560" y="550"/>
+                            <mxPoint x="560" y="460"/>
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="46" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" target="38" edge="1" source="35">
+                <mxCell id="46" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="35" target="38" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="388" y="460" as="sourcePoint"/>
                         <mxPoint x="599" y="552" as="targetPoint"/>
@@ -64,12 +64,12 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="48" value="Word definition" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;fontSize=14;" parent="1" vertex="1" connectable="0">
-                    <mxGeometry x="520" y="480" as="geometry"/>
+                    <mxGeometry x="560" y="480" as="geometry"/>
                 </mxCell>
                 <mxCell id="49" value="Word definition" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;fontSize=14;" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="387.5" y="492.25" as="geometry"/>
                 </mxCell>
-                <mxCell id="50" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" target="19" edge="1" source="35">
+                <mxCell id="50" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="35" target="19" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="388" y="360" as="sourcePoint"/>
                         <mxPoint x="440" y="320" as="targetPoint"/>
@@ -93,7 +93,7 @@
                         <mxPoint x="647" y="140" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="55" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" target="2" edge="1" source="19">
+                <mxCell id="55" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="19" target="2" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="389" y="250" as="sourcePoint"/>
                         <mxPoint x="380" y="140" as="targetPoint"/>
@@ -120,7 +120,7 @@
                 <mxCell id="61" value="Dropdown - set to everything" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;fontSize=14;" parent="1" vertex="1" connectable="0">
                     <mxGeometry x="700" y="208" as="geometry"/>
                 </mxCell>
-                <mxCell id="62" value="&lt;span style=&quot;&quot;&gt;Get a random word from a part speech of your choosing&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;labelBackgroundColor=default;" parent="1" vertex="1">
+                <mxCell id="62" value="&lt;span&gt;Get a random word from a part of speech of your choosing&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;labelBackgroundColor=default;" parent="1" vertex="1">
                     <mxGeometry x="-111" y="120" width="200" height="40" as="geometry"/>
                 </mxCell>
                 <mxCell id="63" value="Search for a word with&amp;nbsp; specific part of speech" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;labelBackgroundColor=default;" parent="1" vertex="1">
@@ -150,7 +150,7 @@
                 <mxCell id="72" value="API Gateway" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;fontSize=14;labelBackgroundColor=default;" parent="1" vertex="1">
                     <mxGeometry x="940" y="270" width="100" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="77" value="&lt;h1&gt;English Dictionary&lt;/h1&gt;&lt;p&gt;- The front is stored in a S3 bucket on AWS&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;- The back consists of:&lt;/p&gt;&lt;p&gt;&lt;span&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;- AWS API Gateway&lt;/p&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;p&gt;- Lambda functions&lt;/p&gt;&lt;p&gt;- AWS Dynamodb&lt;/p&gt;&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=default;fontSize=14;" vertex="1" parent="1">
+                <mxCell id="77" value="&lt;h1&gt;English Dictionary&lt;/h1&gt;&lt;p&gt;- The front is stored in a S3 bucket on AWS&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;- The back consists of:&lt;/p&gt;&lt;p&gt;&lt;span&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;- AWS API Gateway&lt;/p&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;p&gt;- Lambda functions&lt;/p&gt;&lt;p&gt;- AWS Dynamodb&lt;/p&gt;&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=default;fontSize=14;" parent="1" vertex="1">
                     <mxGeometry x="274.75" y="-160" width="280.5" height="210" as="geometry"/>
                 </mxCell>
             </root>
