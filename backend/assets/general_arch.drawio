@@ -1,0 +1,159 @@
+<mxfile host="65bd71144e">
+    <diagram id="LNGbmdYoCPNNyHWBpgpr" name="Page-1">
+        <mxGraphModel dx="1921" dy="1705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#474747" math="0" shadow="1">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Front web page" style="whiteSpace=wrap;html=1;fontStyle=1;rounded=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="80" width="570" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;span style=&quot;text-align: left; font-size: 14px;&quot;&gt;GET&lt;br style=&quot;font-size: 14px;&quot;&gt;/:word&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="641" y="250" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Search for a word (with / without a specific part of speech)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;labelBackgroundColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="160" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;span style=&quot;text-align: left; font-size: 14px;&quot;&gt;GET&lt;br style=&quot;font-size: 14px;&quot;&gt;/:word/:partOfSpeec&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="346.5" y="250" width="137" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;span style=&quot;text-align: left; font-size: 14px;&quot;&gt;GET&lt;br style=&quot;font-size: 14px;&quot;&gt;/:word/:partOfSpeec&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="250" width="137" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="Lambda" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="652.5" y="360" width="97" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Lambda" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="89" y="360" width="98.5" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Lambda" style="rhombus;whiteSpace=wrap;html=1;rounded=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="364" y="360" width="99" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="DynamoDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rounded=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="379.25" y="537" width="71.5" height="95" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=15;entryPerimeter=0;fontSize=14;" parent="1" source="34" target="38" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="157" y="480" as="sourcePoint"/>
+                        <mxPoint x="207" y="430" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="240" y="460"/>
+                            <mxPoint x="240" y="552"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="Word definition" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;fontSize=14;" parent="44" vertex="1" connectable="0">
+                    <mxGeometry x="-0.1899" y="2" relative="1" as="geometry">
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="45" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" parent="1" target="32" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="450" y="550" as="sourcePoint"/>
+                        <mxPoint x="636.75" y="642" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="525" y="550"/>
+                            <mxPoint x="525" y="460"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="46" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" target="38" edge="1" source="35">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="388" y="460" as="sourcePoint"/>
+                        <mxPoint x="599" y="552" as="targetPoint"/>
+                        <Array as="points"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="Word definition" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;fontSize=14;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="520" y="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="Word definition" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;fontSize=14;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="387.5" y="492.25" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" target="19" edge="1" source="35">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="388" y="360" as="sourcePoint"/>
+                        <mxPoint x="440" y="320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="51" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="138.25" y="360" as="sourcePoint"/>
+                        <mxPoint x="137.75" y="310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="52" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="700.5" y="360" as="sourcePoint"/>
+                        <mxPoint x="700" y="310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="7" target="2" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="647.5" y="180" as="sourcePoint"/>
+                        <mxPoint x="647" y="140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="55" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" target="2" edge="1" source="19">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="389" y="250" as="sourcePoint"/>
+                        <mxPoint x="380" y="140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="" style="endArrow=classic;startArrow=classic;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=0.438;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;fontSize=14;" parent="1" source="26" target="2" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="130.5" y="210" as="sourcePoint"/>
+                        <mxPoint x="130" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Random Word - set to part of speech&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;fontSize=14;labelBackgroundColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="18.5" y="170" width="240" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="Search Bar" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;rounded=1;fontSize=14;" parent="1" connectable="0" vertex="1">
+                    <mxGeometry x="408" y="165" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="Dropdown - set to part of speech" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;fontSize=14;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="419" y="208" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="Search Bar" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;rounded=1;fontSize=14;" parent="1" connectable="0" vertex="1">
+                    <mxGeometry x="690" y="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="Dropdown - set to everything" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=1;fontSize=14;" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="700" y="208" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="&lt;span style=&quot;&quot;&gt;Get a random word from a part speech of your choosing&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;labelBackgroundColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="-111" y="120" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="Search for a word with&amp;nbsp; specific part of speech" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;labelBackgroundColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="450.75" y="150" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=14;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="70" y="230" as="sourcePoint"/>
+                        <mxPoint x="790" y="230" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="66" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=14;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="70" y="330" as="sourcePoint"/>
+                        <mxPoint x="790" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="67" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;flipH=1;rounded=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="910" y="70" width="20" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;flipH=1;rounded=1;fontSize=14;" parent="1" vertex="1">
+                    <mxGeometry x="910" y="230" width="20" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="S3 Bucket" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;fontSize=14;labelBackgroundColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="940" y="140" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" value="API Gateway" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;fontSize=14;labelBackgroundColor=default;" parent="1" vertex="1">
+                    <mxGeometry x="940" y="270" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="&lt;h1&gt;English Dictionary&lt;/h1&gt;&lt;p&gt;- The front is stored in a S3 bucket on AWS&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;- The back consists of:&lt;/p&gt;&lt;p&gt;&lt;span&gt;&#9;&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;&#9;&lt;/span&gt;- AWS API Gateway&lt;/p&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;p&gt;- Lambda functions&lt;/p&gt;&lt;p&gt;- AWS Dynamodb&lt;/p&gt;&lt;/blockquote&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=default;fontSize=14;" vertex="1" parent="1">
+                    <mxGeometry x="274.75" y="-160" width="280.5" height="210" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
